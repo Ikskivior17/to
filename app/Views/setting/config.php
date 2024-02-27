@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "tb_kasir";
+$dbname = "tb_kasir1";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 if (!$conn){

@@ -3,7 +3,7 @@
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$database = "tb_kasir";
+$database = "tb_kasir1";
 
 // Create connection
 $conn = mysqli_connect($hostname, $username, $password, $database);
@@ -107,7 +107,7 @@ $jsArray1 = "var nama_barang = new Array();";
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$database = "tb_kasir";
+$database = "tb_kasir1";
 
 // Create connection
 $conn = mysqli_connect($hostname, $username, $password, $database);
@@ -182,12 +182,10 @@ function format_ribuan ($nilai){
       $toko = mysqli_query($conn,"SELECT * FROM login ORDER BY nama_toko ASC");
       while($dat = mysqli_fetch_array($toko)){
         $user = $dat['user'];
-        $foto = $dat['foto'];
         $nama_toko = $dat['nama_toko'];
         $alamat = $dat['alamat'];
         $telp = $dat['telp'];
         echo "<div class='float-right'>";
-        echo "<img src='img/logo.jpg' alt='logo' style='width: 150px; height: 50px;' class='float-right'>";
 
   
     echo "</div>";

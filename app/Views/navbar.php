@@ -2,13 +2,10 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
                 <a href="home" class="navbar-brand mx-4 mb-3">      
-                    <img src="img/logosd.png" alt="Jane" style="width:100%">
 
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
-                        <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
-                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">  
                     </div>
@@ -17,14 +14,14 @@
                     <a href="home" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                     <div class="nav-item ">
                        
-                    </div>
+                    <!-- </div>
                     <a href="home/hal" class="nav-item nav-link"><i class="fas fa-cash-register"></i>Kasir</a>
 
                     <a href="home/barang" class="nav-item nav-link"><i class="fas fa-box"></i>Barang</a>
 
                     <a href="home/laporan" class="nav-item nav-link"><i class="fas fa-file-alt"></i>Laporan</a>
 
-                    <a href="home/setting" class="nav-item nav-link"><i class="fas fa-tools"></i>Pengaturan</a>
+                    <a href="home/setting" class="nav-item nav-link"><i class="fas fa-tools"></i>Pengaturan</a> -->
 
                     
                     <a href="home/user" class="nav-item nav-link"><i class="far fa-smile"></i>User</a>
@@ -56,10 +53,9 @@
                     <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
                 </a>
                 <div class="navbar-nav align-items-center ms-auto">
-                <a href="https://instagram.com/sdtechnology?igshid=OGQ5ZDc2ODk2ZA==" class="nav-item nav-link"><i class="fab fa-instagram"></i>Instagram Kami</a>
 
                     <div class="nav-item dropdown">
-                        <a href="home/kontak" class="nav-item nav-link"><i class="fas fa-id-card"></i>Kontak Kami</a>
+                        <a href="#" class="nav-item nav-link"></i> </a>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">

@@ -9,7 +9,7 @@
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$database = "tb_kasir";
+$database = "tb_kasir1";
 
 // Create connection
 $conn = mysqli_connect($hostname, $username, $password, $database);
